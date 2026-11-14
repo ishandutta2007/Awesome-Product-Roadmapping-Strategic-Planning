@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#0b0f19; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Vibrant Gradient Accents -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="lane1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="lane2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#d946ef" />
+    </linearGradient>
+
+    <linearGradient id="lane3Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Subdued Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    /* CSS Keyframes for dynamic / animated background roadmap elements */
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.75; transform: scale(1.05); }
+    }
+    @keyframes slideBar1 {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(25px); }
+      100% { transform: translateX(0px); }
+    }
+    @keyframes slideBar2 {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(-20px); }
+      100% { transform: translateX(0px); }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes radarSweep {
+      0% { stroke-dashoffset: 600; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    .ambient-glow {
+      animation: pulseGlow 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .bar-anim-1 {
+      animation: slideBar1 8s ease-in-out infinite;
+    }
+    .bar-anim-2 {
+      animation: slideBar2 7s ease-in-out infinite;
+    }
+    .pill-float-1 {
+      animation: floatPill 4s ease-in-out infinite;
+    }
+    .pill-float-2 {
+      animation: floatPill 5s ease-in-out infinite 1s;
+    }
+    .connector-line {
+      stroke-dasharray: 8 6;
+      animation: radarSweep 20s linear infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" fill="url(#grid)" />
+
+  <!-- Dynamic Ambient Glow Spots (Background layer) -->
+  <circle cx="200" cy="180" r="140" fill="#6366f1" opacity="0.15" filter="url(#glow)" class="ambient-glow" />
+  <circle cx="1000" cy="140" r="160" fill="#ec4899" opacity="0.12" filter="url(#glow)" class="ambient-glow" />
+  <circle cx="600" cy="280" r="120" fill="#06b6d4" opacity="0.10" filter="url(#glow)" class="ambient-glow" />
+
+  <!-- Dynamic Animated Roadmap Infrastructure (Behind Text) -->
+  <g opacity="0.45">
+    <!-- Horizontal Timeline Tracks -->
+    <line x1="80" y1="90" x2="1120" y2="90" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+    <line x1="80" y1="270" x2="1120" y2="270" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+
+    <!-- Connecting Dependency Paths -->
+    <path d="M 180 90 Q 250 140 320 90 T 460 90" fill="none" stroke="url(#lane1Grad)" stroke-width="2" class="connector-line" />
+    <path d="M 750 270 Q 840 220 930 270 T 1060 270" fill="none" stroke="url(#lane2Grad)" stroke-width="2" class="connector-line" />
+
+    <!-- Dynamic Roadmap Pill 1 (Top Left) -->
+    <g class="bar-anim-1">
+      <rect x="120" y="74" width="160" height="32" rx="16" fill="url(#lane1Grad)" opacity="0.8" />
+      <circle cx="136" cy="90" r="6" fill="#ffffff" />
+      <text x="152" y="95" fill="#ffffff" font-size="12" font-weight="600" letter-spacing="0.5">NOW • DISCOVERY</text>
+    </g>
+
+    <!-- Dynamic Roadmap Pill 2 (Top Right) -->
+    <g class="bar-anim-2">
+      <rect x="880" y="74" width="170" height="32" rx="16" fill="url(#lane2Grad)" opacity="0.8" />
+      <circle cx="896" cy="90" r="6" fill="#ffffff" />
+      <text x="912" y="95" fill="#ffffff" font-size="12" font-weight="600" letter-spacing="0.5">NEXT • STRATEGY</text>
+    </g>
+
+    <!-- Dynamic Roadmap Pill 3 (Bottom Left) -->
+    <g class="bar-anim-2">
+      <rect x="140" y="254" width="180" height="32" rx="16" fill="url(#lane3Grad)" opacity="0.8" />
+      <circle cx="156" cy="270" r="6" fill="#ffffff" />
+      <text x="172" y="275" fill="#ffffff" font-size="12" font-weight="600" letter-spacing="0.5">LATER • MILESTONES</text>
+    </g>
+
+    <!-- Dynamic Roadmap Pill 4 (Bottom Right) -->
+    <g class="bar-anim-1">
+      <rect x="840" y="254" width="180" height="32" rx="16" fill="url(#primaryGrad)" opacity="0.8" />
+      <circle cx="856" cy="270" r="6" fill="#ffffff" />
+      <text x="872" y="275" fill="#ffffff" font-size="12" font-weight="600" letter-spacing="0.5">GOALS • OKR ALIGNED</text>
+    </g>
+  </g>
+
+  <!-- Foreground Badge / Pill (Top Center) -->
+  <g class="pill-float-1" transform="translate(0, 0)">
+    <rect x="475" y="45" width="250" height="28" rx="14" fill="rgba(99, 102, 241, 0.15)" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1.5" />
+    <circle cx="493" cy="59" r="4" fill="#10b981" />
+    <text x="506" y="64" fill="#a5b4fc" font-size="11.5" font-weight="700" letter-spacing="1">CURATED PM &amp; STRATEGY STACK</text>
+  </g>
+
+  <!-- Foreground Title and Subtitle (Ensuring perfect high-contrast legibility) -->
+  <!-- Main Title -->
+  <text x="600" y="150" text-anchor="middle" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+    Awesome Product Roadmapping
+  </text>
+  <text x="600" y="198" text-anchor="middle" font-size="34" font-weight="800" fill="url(#primaryGrad)" letter-spacing="-0.5">
+    &amp; Strategic Planning
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="240" text-anchor="middle" font-size="15" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+    Enterprise SaaS Platforms • Open-Source Roadmapping • Feedback Discovery • OKR Alignment
+  </text>
+
+  <!-- Bottom Floating Feature Pills -->
+  <g class="pill-float-2">
+    <!-- Tag 1 -->
+    <rect x="360" y="302" width="105" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+    <text x="412" y="319" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="600">🎯 Strategy</text>
+
+    <!-- Tag 2 -->
+    <rect x="480" y="302" width="115" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+    <text x="537" y="319" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="600">🗺️ Roadmaps</text>
+
+    <!-- Tag 3 -->
+    <rect x="610" y="302" width="115" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+    <text x="667" y="319" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="600">💬 Feedback</text>
+
+    <!-- Tag 4 -->
+    <rect x="740" y="302" width="100" height="26" rx="13" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+    <text x="790" y="319" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="600">⚡ Open Source</text>
+  </g>
+</svg>
