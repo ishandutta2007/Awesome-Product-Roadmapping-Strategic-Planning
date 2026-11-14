@@ -9,7 +9,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
 <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Product-Roadmapping-Strategic-Planning/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Roadmapping-Strategic-Planning?style=social" alt="GitHub stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Product-Roadmapping-Strategic-Planning/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Roadmapping-Strategic-Planning?style=social" alt="GitHub_Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Product-Roadmapping-Strategic-Planning/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Roadmapping-Strategic-Planning?style=social" alt="GitHub forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Product-Roadmapping-Strategic-Planning/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -160,31 +160,31 @@ ProdPad champions outcome-based "Now, Next, Later" roadmaps over artificial cale
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Product Roadmapping and Strategic Planning tools. Sorted by GitHub stars (descending).
+Self-hosted, community-driven Product Roadmapping and Strategic Planning tools. Sorted by GitHub_Stars (descending).
 
-| Project | Stars | Stack | License | Description |
+| Project | GitHub_Stars | Stack | License | Description |
 |:---|:---|:---|:---|:---|
-| **[Plane](https://github.com/makeplane/plane)** | [![GitHub stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers) | TypeScript / Python / Django | AGPL-3.0 | Modern open-source project and product management platform featuring issue tracking, cycles, epics, modules, and visual product roadmaps. |
-| **[Focalboard](https://github.com/mattermost-community/focalboard)** | [![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers) | Go / TypeScript / React | AGPL-3.0 | Self-hosted project management alternative to Trello, Notion, and Asana with Kanban boards, table views, and product roadmap timelines. |
-| **[OpenProject](https://github.com/opf/openproject)** | [![GitHub stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | Ruby on Rails / PostgreSQL | GPL-3.0 | Comprehensive project and portfolio management suite with product roadmaps, Gantt timelines, release planning, and agile Scrum boards. |
-| **[Planka](https://github.com/plankanban/planka)** | [![GitHub stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers) | JavaScript / React / Node.js | AGPL-3.0 | Elegant open-source collaborative kanban and milestone planning board for tracking product delivery roadmaps and tasks in real time. |
-| **[Leantime](https://github.com/Leantime/leantime)** | [![GitHub stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers) | PHP / JavaScript / MySQL | AGPL-3.0 | Strategic product management system blending strategy, milestone roadmap tracking, OKRs, and research boards with daily execution. |
-| **[Vikunja](https://github.com/go-vikunja/vikunja)** | [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers) | Go / TypeScript / Vue.js | AGPL-3.0 | Clean, fast, self-hostable project and task management application featuring Gantt charts, Kanban boards, and milestone roadmapping. |
-| **[Fider](https://github.com/getfider/fider)** | [![GitHub stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers) | Go / React / PostgreSQL | AGPL-3.0 | Dedicated customer feedback portal with feature request voting, community discussions, and an integrated public product roadmap. |
-| **[Taiga](https://github.com/taigaio/taiga-docker)** | [![GitHub stars](https://img.shields.io/github/stars/taigaio/taiga-docker?style=social&color=white)](https://github.com/taigaio/taiga-docker/stargazers) | Python / Django / AngularJS | MPL-2.0 | Open-source agile management tool with Scrum and Kanban workflows, backlog planning, and sprint milestone delivery roadmaps. |
-| **[LogChimp](https://github.com/logchimp/logchimp)** | [![GitHub stars](https://img.shields.io/github/stars/logchimp/logchimp?style=social&color=white)](https://github.com/logchimp/logchimp/stargazers) | Node.js / Vue.js / PostgreSQL | AGPL-3.0 | Open-source customer feedback and roadmap platform designed as a self-hostable alternative to Canny and Productboard. |
-| **[Roadmapper](https://github.com/csgoh/roadmapper)** | [![GitHub stars](https://img.shields.io/github/stars/csgoh/roadmapper?style=social&color=white)](https://github.com/csgoh/roadmapper/stargazers) | Python | MIT | Python "Roadmap-as-Code" library to generate beautiful, publication-ready visual timeline and product roadmap diagrams via code. |
-| **[ClearFlask](https://github.com/clearflask/clearflask)** | [![GitHub stars](https://img.shields.io/github/stars/clearflask/clearflask?style=social&color=white)](https://github.com/clearflask/clearflask/stargazers) | Java / TypeScript / React | Apache-2.0 | Open-source feedback hub, feature request voting board, and public product roadmap tracker with customizable workflows. |
-| **[Eververse](https://github.com/haydenbleasel/eververse)** | [![GitHub stars](https://img.shields.io/github/stars/haydenbleasel/eververse?style=social&color=white)](https://github.com/haydenbleasel/eververse/stargazers) | TypeScript / Next.js / Supabase | Open Source | Modern open-source product management platform and Productboard alternative for problem exploration, feature prioritization, and AI roadmapping. |
-| **[Quackback](https://github.com/QuackbackIO/quackback)** | [![GitHub stars](https://img.shields.io/github/stars/QuackbackIO/quackback?style=social&color=white)](https://github.com/QuackbackIO/quackback/stargazers) | TypeScript / Next.js / PostgreSQL | AGPL-3.0 | Open-source customer feedback, changelog, and roadmap platform that syncs feature requests bi-directionally with GitHub and Linear issues. |
-| **[ShipShipShip](https://github.com/GauthierNelkinsky/ShipShipShip)** | [![GitHub stars](https://img.shields.io/github/stars/GauthierNelkinsky/ShipShipShip?style=social&color=white)](https://github.com/GauthierNelkinsky/ShipShipShip/stargazers) | SvelteKit / Go / SQLite | MIT | Lightweight self-hostable product roadmap and changelog tool with community upvoting on upcoming features. |
-| **[mouc](https://github.com/rnortman/mouc)** | [![GitHub stars](https://img.shields.io/github/stars/rnortman/mouc?style=social&color=white)](https://github.com/rnortman/mouc/stargazers) | Python / YAML | MIT | YAML-first CLI roadmapping tool with automatic dependency scheduling and Mermaid Gantt chart rendering. |
-| **[product-roadmap-planner](https://github.com)** | [![GitHub stars](https://img.shields.io/badge/stars-OSS-white?style=social)](https://github.com) | SvelteKit 5 / TypeScript | Open Source | Client-side, local-first product roadmap planner with automated Impact × Effort priority scoring and quarterly drag-and-drop timelines. |
+| **[Plane](https://github.com/makeplane/plane)** | [![GitHub_Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers) | TypeScript / Python / Django | AGPL-3.0 | Modern open-source project and product management platform featuring issue tracking, cycles, epics, modules, and visual product roadmaps. |
+| **[Focalboard](https://github.com/mattermost-community/focalboard)** | [![GitHub_Stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers) | Go / TypeScript / React | AGPL-3.0 | Self-hosted project management alternative to Trello, Notion, and Asana with Kanban boards, table views, and product roadmap timelines. |
+| **[OpenProject](https://github.com/opf/openproject)** | [![GitHub_Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | Ruby on Rails / PostgreSQL | GPL-3.0 | Comprehensive project and portfolio management suite with product roadmaps, Gantt timelines, release planning, and agile Scrum boards. |
+| **[Planka](https://github.com/plankanban/planka)** | [![GitHub_Stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers) | JavaScript / React / Node.js | AGPL-3.0 | Elegant open-source collaborative kanban and milestone planning board for tracking product delivery roadmaps and tasks in real time. |
+| **[Leantime](https://github.com/Leantime/leantime)** | [![GitHub_Stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers) | PHP / JavaScript / MySQL | AGPL-3.0 | Strategic product management system blending strategy, milestone roadmap tracking, OKRs, and research boards with daily execution. |
+| **[Vikunja](https://github.com/go-vikunja/vikunja)** | [![GitHub_Stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers) | Go / TypeScript / Vue.js | AGPL-3.0 | Clean, fast, self-hostable project and task management application featuring Gantt charts, Kanban boards, and milestone roadmapping. |
+| **[Fider](https://github.com/getfider/fider)** | [![GitHub_Stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers) | Go / React / PostgreSQL | AGPL-3.0 | Dedicated customer feedback portal with feature request voting, community discussions, and an integrated public product roadmap. |
+| **[Taiga](https://github.com/taigaio/taiga-docker)** | [![GitHub_Stars](https://img.shields.io/github/stars/taigaio/taiga-docker?style=social&color=white)](https://github.com/taigaio/taiga-docker/stargazers) | Python / Django / AngularJS | MPL-2.0 | Open-source agile management tool with Scrum and Kanban workflows, backlog planning, and sprint milestone delivery roadmaps. |
+| **[LogChimp](https://github.com/logchimp/logchimp)** | [![GitHub_Stars](https://img.shields.io/github/stars/logchimp/logchimp?style=social&color=white)](https://github.com/logchimp/logchimp/stargazers) | Node.js / Vue.js / PostgreSQL | AGPL-3.0 | Open-source customer feedback and roadmap platform designed as a self-hostable alternative to Canny and Productboard. |
+| **[Roadmapper](https://github.com/csgoh/roadmapper)** | [![GitHub_Stars](https://img.shields.io/github/stars/csgoh/roadmapper?style=social&color=white)](https://github.com/csgoh/roadmapper/stargazers) | Python | MIT | Python "Roadmap-as-Code" library to generate beautiful, publication-ready visual timeline and product roadmap diagrams via code. |
+| **[ClearFlask](https://github.com/clearflask/clearflask)** | [![GitHub_Stars](https://img.shields.io/github/stars/clearflask/clearflask?style=social&color=white)](https://github.com/clearflask/clearflask/stargazers) | Java / TypeScript / React | Apache-2.0 | Open-source feedback hub, feature request voting board, and public product roadmap tracker with customizable workflows. |
+| **[Eververse](https://github.com/haydenbleasel/eververse)** | [![GitHub_Stars](https://img.shields.io/github/stars/haydenbleasel/eververse?style=social&color=white)](https://github.com/haydenbleasel/eververse/stargazers) | TypeScript / Next.js / Supabase | Open Source | Modern open-source product management platform and Productboard alternative for problem exploration, feature prioritization, and AI roadmapping. |
+| **[Quackback](https://github.com/QuackbackIO/quackback)** | [![GitHub_Stars](https://img.shields.io/github/stars/QuackbackIO/quackback?style=social&color=white)](https://github.com/QuackbackIO/quackback/stargazers) | TypeScript / Next.js / PostgreSQL | AGPL-3.0 | Open-source customer feedback, changelog, and roadmap platform that syncs feature requests bi-directionally with GitHub and Linear issues. |
+| **[ShipShipShip](https://github.com/GauthierNelkinsky/ShipShipShip)** | [![GitHub_Stars](https://img.shields.io/github/stars/GauthierNelkinsky/ShipShipShip?style=social&color=white)](https://github.com/GauthierNelkinsky/ShipShipShip/stargazers) | SvelteKit / Go / SQLite | MIT | Lightweight self-hostable product roadmap and changelog tool with community upvoting on upcoming features. |
+| **[mouc](https://github.com/rnortman/mouc)** | [![GitHub_Stars](https://img.shields.io/github/stars/rnortman/mouc?style=social&color=white)](https://github.com/rnortman/mouc/stargazers) | Python / YAML | MIT | YAML-first CLI roadmapping tool with automatic dependency scheduling and Mermaid Gantt chart rendering. |
+| **[product-roadmap-planner](https://github.com)** | [![GitHub_Stars](https://img.shields.io/badge/stars-OSS-white?style=social)](https://github.com) | SvelteKit 5 / TypeScript | Open Source | Client-side, local-first product roadmap planner with automated Impact × Effort priority scoring and quarterly drag-and-drop timelines. |
 
 ---
 
 ### Plane
-[![GitHub stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)  
 🛠️ **Stack:** TypeScript / Python / Django | ⚖️ **License:** AGPL-3.0  
 🔗 **Repository:** [makeplane/plane](https://github.com/makeplane/plane)  
 Plane is an open-source project management platform positioned as an alternative to Jira, Linear, and Monday. It covers issues, sprints, cycles, documents, and triage, complete with visual module views and product roadmap planning capabilities to align development sprints with strategic delivery goals.
@@ -194,7 +194,7 @@ Plane is an open-source project management platform positioned as an alternative
 ---
 
 ### Focalboard
-[![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers)  
 🛠️ **Stack:** Go / TypeScript / React | ⚖️ **License:** AGPL-3.0  
 🔗 **Repository:** [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard)  
 Focalboard (by Mattermost Community) is an open-source, multilingual project management and roadmap visualization tool. It provides flexible Kanban boards, calendar views, editable tables, and timeline views, making it simple to map out release milestones and coordinate product deliveries either standalone or integrated with chat.
@@ -204,7 +204,7 @@ Focalboard (by Mattermost Community) is an open-source, multilingual project man
 ---
 
 ### OpenProject
-[![GitHub stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers)  
 🛠️ **Stack:** Ruby on Rails / PostgreSQL | ⚖️ **License:** GPL-3.0 (Community)  
 🔗 **Repository:** [opf/openproject](https://github.com/opf/openproject)  
 OpenProject is a comprehensive open-source project management suite for product, project, and portfolio management. It features project scheduling, Gantt charts, release roadmaps, agile boards, cost reporting, and team collaboration.
@@ -214,7 +214,7 @@ OpenProject is a comprehensive open-source project management suite for product,
 ---
 
 ### Planka
-[![GitHub stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers)  
 🛠️ **Stack:** JavaScript / React / Node.js | ⚖️ **License:** AGPL-3.0  
 🔗 **Repository:** [plankanban/planka](https://github.com/plankanban/planka)  
 Planka is a sleek, open-source collaborative kanban tracking tool. It allows teams to create project boards, assign milestones, manage cards, track custom actions, and visualize product work progress in real time.
@@ -224,7 +224,7 @@ Planka is a sleek, open-source collaborative kanban tracking tool. It allows tea
 ---
 
 ### Leantime
-[![GitHub stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers)  
 🛠️ **Stack:** PHP / JavaScript / MySQL | ⚖️ **License:** AGPL-3.0  
 🔗 **Repository:** [Leantime/leantime](https://github.com/Leantime/leantime)  
 Leantime is an open-source product management system built to bridge high-level strategy with project execution. It includes strategic milestone roadmaps, OKR tracking, idea boards, research validation, and sprint boards designed for non-technical product leads.
@@ -234,7 +234,7 @@ Leantime is an open-source product management system built to bridge high-level 
 ---
 
 ### Vikunja
-[![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers)  
 🛠️ **Stack:** Go / TypeScript / Vue.js | ⚖️ **License:** AGPL-3.0  
 🔗 **Repository:** [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)  
 Vikunja is a high-performance open-source task and project management suite that supports multiple visualization views: Lists, Kanban boards, Table overviews, and interactive Gantt charts for milestone roadmapping.
@@ -244,7 +244,7 @@ Vikunja is a high-performance open-source task and project management suite that
 ---
 
 ### Fider
-[![GitHub stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers)  
 🛠️ **Stack:** Go / React / PostgreSQL | ⚖️ **License:** AGPL-3.0  
 🔗 **Repository:** [getfider/fider](https://github.com/getfider/fider)  
 Fider is a popular open-source platform designed to collect, discuss, and prioritize customer feedback. Users can submit ideas, vote on features, and view planned, started, or completed initiatives on an integrated public roadmap.
@@ -254,7 +254,7 @@ Fider is a popular open-source platform designed to collect, discuss, and priori
 ---
 
 ### Taiga
-[![GitHub stars](https://img.shields.io/github/stars/taigaio/taiga-docker?style=social&color=white)](https://github.com/taigaio/taiga-docker/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/taigaio/taiga-docker?style=social&color=white)](https://github.com/taigaio/taiga-docker/stargazers)  
 🛠️ **Stack:** Python / Django / AngularJS | ⚖️ **License:** MPL-2.0  
 🔗 **Repository:** [taigaio/taiga-docker](https://github.com/taigaio/taiga-docker)  
 Taiga is an open-source agile project management platform offering Scrum and Kanban workflows, backlog planning, user story estimation, and milestone tracking.
@@ -264,7 +264,7 @@ Taiga is an open-source agile project management platform offering Scrum and Kan
 ---
 
 ### LogChimp
-[![GitHub stars](https://img.shields.io/github/stars/logchimp/logchimp?style=social&color=white)](https://github.com/logchimp/logchimp/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/logchimp/logchimp?style=social&color=white)](https://github.com/logchimp/logchimp/stargazers)  
 🛠️ **Stack:** Node.js / Vue.js / PostgreSQL | ⚖️ **License:** AGPL-3.0  
 🔗 **Repository:** [logchimp/logchimp](https://github.com/logchimp/logchimp)  
 LogChimp is an open-source customer feedback and roadmap platform designed as a direct alternative to Canny and Productboard. It features idea submission, feature voting, discussions, and a public product roadmap with notification webhooks.
@@ -274,7 +274,7 @@ LogChimp is an open-source customer feedback and roadmap platform designed as a 
 ---
 
 ### Roadmapper
-[![GitHub stars](https://img.shields.io/github/stars/csgoh/roadmapper?style=social&color=white)](https://github.com/csgoh/roadmapper/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/csgoh/roadmapper?style=social&color=white)](https://github.com/csgoh/roadmapper/stargazers)  
 🛠️ **Stack:** Python | ⚖️ **License:** MIT  
 🔗 **Repository:** [csgoh/roadmapper](https://github.com/csgoh/roadmapper)  
 Roadmapper is a Python "Roadmap-as-Code" (RaC) library that programmatically generates publication-quality timeline diagrams and product roadmaps from Python scripts, making roadmap visualizations easily versionable in Git repositories.
@@ -284,7 +284,7 @@ Roadmapper is a Python "Roadmap-as-Code" (RaC) library that programmatically gen
 ---
 
 ### ClearFlask
-[![GitHub stars](https://img.shields.io/github/stars/clearflask/clearflask?style=social&color=white)](https://github.com/clearflask/clearflask/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/clearflask/clearflask?style=social&color=white)](https://github.com/clearflask/clearflask/stargazers)  
 🛠️ **Stack:** Java / TypeScript / React | ⚖️ **License:** Apache-2.0  
 🔗 **Repository:** [clearflask/clearflask](https://github.com/clearflask/clearflask)  
 ClearFlask is an open-source community feedback, feature request, and public roadmap engine. It features public feedback boards, idea prioritization, and customizable roadmap boards.
@@ -294,7 +294,7 @@ ClearFlask is an open-source community feedback, feature request, and public roa
 ---
 
 ### Eververse
-[![GitHub stars](https://img.shields.io/github/stars/haydenbleasel/eververse?style=social&color=white)](https://github.com/haydenbleasel/eververse/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/haydenbleasel/eververse?style=social&color=white)](https://github.com/haydenbleasel/eververse/stargazers)  
 🛠️ **Stack:** TypeScript / Next.js / Supabase | ⚖️ **License:** Open Source  
 🔗 **Repository:** [haydenbleasel/eververse](https://github.com/haydenbleasel/eververse)  
 Eververse is an open-source product management platform positioned as an AI-assisted alternative to Productboard and Cycle. Built on Next.js and Supabase, it helps product teams explore problems, ideate solutions, prioritize features, and publish visual roadmaps.
@@ -304,7 +304,7 @@ Eververse is an open-source product management platform positioned as an AI-assi
 ---
 
 ### Quackback
-[![GitHub stars](https://img.shields.io/github/stars/QuackbackIO/quackback?style=social&color=white)](https://github.com/QuackbackIO/quackback/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/QuackbackIO/quackback?style=social&color=white)](https://github.com/QuackbackIO/quackback/stargazers)  
 🛠️ **Stack:** TypeScript / Next.js / PostgreSQL | ⚖️ **License:** AGPL-3.0  
 🔗 **Repository:** [QuackbackIO/quackback](https://github.com/QuackbackIO/quackback)  
 Quackback is an open-source customer feedback, changelog, and roadmap platform that syncs feature requests with GitHub and Linear issues to keep community roadmaps automatically updated.
@@ -314,7 +314,7 @@ Quackback is an open-source customer feedback, changelog, and roadmap platform t
 ---
 
 ### ShipShipShip
-[![GitHub stars](https://img.shields.io/github/stars/GauthierNelkinsky/ShipShipShip?style=social&color=white)](https://github.com/GauthierNelkinsky/ShipShipShip/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/GauthierNelkinsky/ShipShipShip?style=social&color=white)](https://github.com/GauthierNelkinsky/ShipShipShip/stargazers)  
 🛠️ **Stack:** SvelteKit / Go / SQLite | ⚖️ **License:** MIT  
 🔗 **Repository:** [GauthierNelkinsky/ShipShipShip](https://github.com/GauthierNelkinsky/ShipShipShip)  
 ShipShipShip is a lightweight, self-hostable product roadmap and changelog application built with SvelteKit and Go, enabling communities to upvote upcoming features and follow product releases.
@@ -324,7 +324,7 @@ ShipShipShip is a lightweight, self-hostable product roadmap and changelog appli
 ---
 
 ### mouc
-[![GitHub stars](https://img.shields.io/github/stars/rnortman/mouc?style=social&color=white)](https://github.com/rnortman/mouc/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/rnortman/mouc?style=social&color=white)](https://github.com/rnortman/mouc/stargazers)  
 🛠️ **Stack:** Python / YAML | ⚖️ **License:** MIT  
 🔗 **Repository:** [rnortman/mouc](https://github.com/rnortman/mouc)  
 mouc is a YAML-first command-line roadmapping tool where roadmaps live in version control. It features automatic dependency scheduling and outputs Mermaid Gantt charts, Graphviz graphs, and Markdown.
@@ -334,7 +334,7 @@ mouc is a YAML-first command-line roadmapping tool where roadmaps live in versio
 ---
 
 ### product-roadmap-planner
-[![GitHub stars](https://img.shields.io/badge/stars-OSS-white?style=social)](https://github.com)  
+[![GitHub_Stars](https://img.shields.io/badge/stars-OSS-white?style=social)](https://github.com)  
 🛠️ **Stack:** SvelteKit 5 / TypeScript | ⚖️ **License:** Open Source  
 product-roadmap-planner is a client-side product roadmap planning application built with SvelteKit 5. It features automated priority scoring using an Impact × Effort matrix, quarterly drag-and-drop timelines, and local storage data persistence.
 
@@ -384,7 +384,7 @@ product-roadmap-planner is a client-side product roadmap planning application bu
 Contributions are welcome! If you know of an open-source Product Roadmapping or Strategic Planning tool that should be listed here:
 
 1. 🍴 Fork this repository.
-2. ✍️ Add your project following the table and detailed section formats (Project name, GitHub star badge, Stack, License, description, and key features).
+2. ✍️ Add your project following the table and detailed section formats (Project name, GitHub Stars_Badge, Stack, License, description, and key features).
 3. 🧪 Ensure the project is actively maintained with valid open-source licensing.
 4. 🚀 Submit a Pull Request with a brief explanation of why the tool stands out.
 
