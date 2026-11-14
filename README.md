@@ -1,5 +1,3 @@
-# Awesome-Product-Roadmapping-Strategic-Planning
-
 # Awesome Product Roadmapping & Strategic Planning
 
 > A curated list of top Product Roadmapping and Strategic Planning platforms — both SaaS/Hosted commercial solutions and open-source alternatives for connecting strategy, customer feedback, and delivery roadmaps.
@@ -7,142 +5,337 @@
 
 ---
 
+## 📈 Sector Overview & Market Dynamics
+
+The global **product management and roadmapping software sector** is estimated between **$1.3B and $2.9B** (projected to reach **$4.5B–$8.0B+** by the early 2030s at an estimated **11%–12% CAGR**), propelled by remote collaboration, agile transformation, and product-led growth (PLG) strategies.
+
+The market exhibits **moderate fragmentation with upper-tier concentration**: the top enterprise tier (commanded by Atlassian with Jira Product Discovery, Productboard, and Aha!) captures approximately 38%–43% of enterprise revenues, while the mid-to-lower tier remains highly fragmented among specialized discovery portals, OKR alignment platforms, and emerging open-source roadmapping tools rather than a single winner-take-all monopoly.
+
+---
+
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Aha! Roadmaps](#aha-roadmaps)
-  - [Productboard](#productboard)
   - [Jira Product Discovery](#jira-product-discovery)
-  - [Craft.io](#craftio)
-  - [airfocus](#airfocus)
-  - [ProdPad](#prodpad)
+  - [Productboard](#productboard)
+  - [Aha! Roadmaps](#aha-roadmaps)
   - [Dragonboat](#dragonboat)
+  - [airfocus](#airfocus)
   - [ProductPlan](#productplan)
+  - [Craft.io](#craftio)
+  - [ProdPad](#prodpad)
 - [Open-Source Software](#-open-source-software)
-  - [Eververse](#eververse)
   - [Plane](#plane)
+  - [Focalboard](#focalboard)
   - [OpenProject](#openproject)
+  - [Planka](#planka)
+  - [Leantime](#leantime)
+  - [Vikunja](#vikunja)
+  - [Fider](#fider)
+  - [Taiga](#taiga)
   - [LogChimp](#logchimp)
+  - [Roadmapper](#roadmapper)
+  - [ClearFlask](#clearflask)
+  - [Eververse](#eververse)
+  - [Quackback](#quackback)
+  - [ShipShipShip](#shipshipship)
   - [mouc](#mouc)
   - [product-roadmap-planner](#product-roadmap-planner)
-  - [Taiga](#taiga)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Product Roadmapping and Strategic Planning platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Product Roadmapping and Strategic Planning platforms. Sorted by company size (valuation / estimated revenue, descending).
 
-### Aha! Roadmaps
-**Type:** Strategy-to-roadmap traceability with portfolio planning
-Aha! is built around connecting high-level goals to features, initiatives, and delivery work, with a "strategy → initiative → feature → release" mapping that answers why work is being done and how progress is proven [citation:6]. It supports goal setting, idea portals, customer feedback collection, prioritization frameworks, and presentation-ready reporting [citation:12]. **Trade-off:** The platform can feel complex for small teams, and its broad feature set requires configuration, governance, and training before it delivers consistent value [citation:12]. It is strongest on product planning; engineering execution typically requires a separate delivery platform.
+| Platform | Company Size (Valuation / Revenue) | Starting Paid Tier Price | Free Tier Limits | Key Highlights & Strategic Focus |
+|:---|:---|:---|:---|:---|
+| **[Jira Product Discovery](https://www.atlassian.com/software/jira/product-discovery)** | **~$45B+ Public Market Cap** (Atlassian ~$4.4B+ Revenue) | **$10.50/creator/month** (Standard plan; billed annually or $10.50/creator/mo monthly) | **Free Forever**: Capped at **3 creators**, unlimited free viewers/contributors, 2 GB file storage, and 100 automation executions/month | Built natively inside Atlassian; connects ideation, prioritization matrices, and roadmaps directly into Jira Software delivery workflows. |
+| **[Productboard](https://www.productboard.com)** | **$1.7B Valuation** (~$70M–$75M ARR) | **$19/maker/month** (Plus plan, billed annually) or **$25/maker/month** (billed monthly) | **Free Forever**: Capped at **1 maker**, unlimited contributors, **500 total feedback notes**, 1 teamspace, 1 product portal, and 50 AI credits/month | Customer-feedback-driven discovery, feature prioritization scoring, and dynamic roadmap presentations across cross-functional teams. |
+| **[Aha! Roadmaps](https://www.aha.io/roadmaps)** | **~$45M–$50M+ ARR** (Bootstrapped / Profitable) | **$59/user/month** (Premium tier, billed annually) | **30-Day Free Trial**: Full-featured access across all capabilities with unlimited users for 30 days; no permanent free editor tier | End-to-end strategy-to-delivery traceability, linking corporate strategic goals and initiatives to releases, features, and idea portals. |
+| **[Dragonboat](https://dragonboat.io)** | **~$48M Valuation** (~$3.4M ARR; $15M Total Raised) | **$69/user/month** (Essential tier, billed annually; min contract typically $6,000/year) | **Guided Free Trial / Up to 100 Free Requestors**: Free read-only access for up to 100 stakeholders/requestors; core portfolio planning requires paid license | Multi-product portfolio alignment, strategic OKR allocation, resource capacity planning, and bi-directional Jira/Azure DevOps roadmapping. |
+| **[airfocus](https://airfocus.com)** | **~$20M Total Funding** (~$5M ARR; Acquired by Lucid) | **$59/user/month** (Professional tier, billed annually via custom quote) | **No Free Tier / Custom Guided Trial**: Access provided via scheduled solution demo and guided pilot; no public self-serve free plan | Modular product operating system with priority rating frameworks (RICE, WSJF), customizable roadmap views, and strategy apps. |
+| **[ProductPlan](https://www.productplan.com)** | **~$5M–$10M ARR** (Privately Held) | **$49/editor/month** (Basic tier, billed annually) | **14-Day Free Trial**: Full access to all roadmap templates, integrations, and editor capabilities for 14 days; unlimited free view-only links | Stakeholder-ready visual roadmap presentation tool featuring timeline, list, and table layouts with intuitive drag-and-drop roadmap building. |
+| **[Craft.io](https://craft.io)** | **~$8M Total Funding** (~$3M–$6M ARR) | **$19/editor/month** (Starter tier, billed annually) or **$24/editor/month** (billed monthly) | **14-Day Free Trial**: 14-day full access to Pro plan features; unlimited free view-only and commenting contributors on all plans | Goal- and OKR-driven product management suite with built-in prioritization models (Value vs. Effort, MoSCoW, RICE) and capacity planning. |
+| **[ProdPad](https://www.prodPad.com)** | **~$2M–$5M ARR** (Bootstrapped / Customer-Funded) | **$24/editor/month** (Essentials module, billed annually) | **7 to 14-Day Free Trial**: Full sandbox trial across all modules; unlimited free Reviewers (stakeholders can view roadmaps, log feedback, and submit ideas) | Focuses on lean "Now-Next-Later" outcome-based roadmaps, continuous product discovery validation, and user feedback intake pipelines. |
 
-### Productboard
-**Type:** Customer-feedback-driven discovery and roadmapping
-Productboard is the insight-led platform for turning scattered customer feedback into product decisions. It supports feedback collection, customer insight organization, feature evaluation, prioritization frameworks, and roadmap planning, with a complete "feedback → theme → opportunity → feature → roadmap" evidence chain [citation:6][citation:12]. **Trade-off:** It creates a tool boundary between product planning and delivery execution, and maintaining integrations to keep feature status synchronized adds administrative work [citation:12]. Its value is harder to justify for smaller teams with modest feedback volume.
+---
 
 ### Jira Product Discovery
-**Type:** Product discovery within the Jira ecosystem
-Jira Product Discovery captures ideas, organizes customer feedback, prioritizes feature requests, and creates roadmaps that link directly to Jira Software delivery workflows [citation:5]. Its core value is bringing discovery and execution into the same permissions, fields, and audit governance model, reducing context switching [citation:6]. **Trade-off:** External roadmap branding and presentation may require additional layers, and teams unfamiliar with product workflows may need training and configuration [citation:1].
+**Type:** Product discovery within the Jira ecosystem  
+**Pricing:** Free plan available; starting paid tier at $10.50 per creator/month (Standard).  
+Jira Product Discovery captures ideas, organizes customer feedback, prioritizes feature requests, and creates roadmaps that link directly to Jira Software delivery workflows. Its core value is bringing discovery and execution into the same permissions, fields, and audit governance model, eliminating tool-switching friction between product managers and engineering squads.
 
-### Craft.io
-**Type:** OKR-linked roadmapping with prioritization models
-Craft.io connects OKRs directly to roadmap items, with built-in prioritization models for weighing competing initiatives [citation:6]. It is suited for organizations with mature OKR practices that want goals to drive resource allocation and priority, rather than remaining aspirational slogans. **Trade-off:** Poor OKR quality (vague goals, unmeasurable metrics) leads to "seeming alignment but actual spinning" [citation:6].
+### Productboard
+**Type:** Customer-feedback-driven discovery and roadmapping  
+**Pricing:** Free plan available; starting paid tier at $19 per maker/month (Plus, billed annually).  
+Productboard is the insight-led platform for turning customer feedback into product decisions. It supports feedback aggregation, customer insight clustering, feature evaluation, prioritization frameworks, and roadmap publishing with a complete "feedback → theme → opportunity → feature → roadmap" evidence chain.
 
-### airfocus
-**Type:** Modular strategy and roadmapping with progressive adoption
-airfocus uses a modular architecture supporting product strategy management, roadmap prioritization, and problem-solving, allowing teams to start with priority mechanisms and expand to roadmaps and release plans incrementally [citation:6]. It is positioned for small-to-mid-sized teams or organizations in methodology iteration wanting to reduce one-time switching risk, with results typically visible in 4–8 weeks [citation:6].
-
-### ProdPad
-**Type:** Idea-to-validation pipeline with roadmap management
-ProdPad focuses on product ideation, user feedback, validation, and roadmap management, with a workflow from idea through validation to planning [citation:1]. It is suited for teams that want to institutionalize the product discovery process rather than only present a roadmap.
+### Aha! Roadmaps
+**Type:** Strategy-to-roadmap traceability with portfolio planning  
+**Pricing:** Starting paid tier at $59 per user/month (Premium, billed annually); 30-day free trial.  
+Aha! Roadmaps connects high-level corporate goals to initiatives, releases, and user stories with a strict "strategy → initiative → feature → release" mapping that proves why work is being done. It supports goal setting, idea portals, customer feedback collection, prioritization frameworks, and presentation-ready reporting.
 
 ### Dragonboat
-**Type:** Portfolio and strategic alignment with investment decisions
-Dragonboat provides product portfolio management, strategic alignment, investment decisions, and roadmap management, with capabilities for portfolio hierarchy, resource planning, and strategic goal mapping [citation:1]. It is aimed at organizations managing multiple products where portfolio-level trade-offs matter.
+**Type:** Portfolio and strategic alignment with investment decisions  
+**Pricing:** Starting paid tier at $69 per user/month (Essential, billed annually); guided demo and trial.  
+Dragonboat provides product portfolio management, strategic alignment, investment allocation, and roadmap management. It features multi-level portfolio hierarchies, resource planning, and strategic goal mapping tailored for organizations coordinating multiple products.
+
+### airfocus
+**Type:** Modular strategy and roadmapping with progressive adoption  
+**Pricing:** Starting paid tier at $59 per user/month (Professional, billed annually); demo on request.  
+airfocus utilizes a modular architecture supporting product strategy management, roadmap prioritization, and problem-solving, allowing teams to start with priority scoring mechanisms and expand to release roadmaps, feedback portals, and OKR alignment incrementally.
 
 ### ProductPlan
-**Type:** Roadmap planning, presentation, and communication
-ProductPlan focuses on roadmap planning, presentation, and communication, with visual roadmap views and sharing capabilities [citation:1]. It is positioned for teams whose primary need is clear, stakeholder-ready roadmap communication rather than full discovery or portfolio governance.
+**Type:** Roadmap planning, presentation, and communication  
+**Pricing:** Starting paid tier at $49 per editor/month (Basic, billed annually); 14-day free trial.  
+ProductPlan focuses on roadmap planning, presentation, and stakeholder communication, offering beautiful visual roadmap views (Timeline, List, Table, Portfolio) with unlimited free view-only sharing for collaborators.
+
+### Craft.io
+**Type:** OKR-linked roadmapping with prioritization models  
+**Pricing:** Starting paid tier at $19 per editor/month (Starter, billed annually); 14-day free trial.  
+Craft.io connects OKRs directly to roadmap items, with built-in prioritization models (Value vs. Effort, RICE, MoSCoW) for weighing competing initiatives, suited for organizations that want quantifiable objectives to drive sprint resource allocation.
+
+### ProdPad
+**Type:** Idea-to-validation pipeline with lean roadmap management  
+**Pricing:** Starting paid tier at $24 per editor/month (Essentials module, billed annually); 7–14 day free trial.  
+ProdPad champions outcome-based "Now, Next, Later" roadmaps over artificial calendar-date commitments. It provides structured workflows from idea intake through customer validation to product execution, with unlimited free reviewer seats for company-wide participation.
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Product Roadmapping and Strategic Planning tools. The open-source ecosystem is **fragmented** — available projects range from AI-native product management platforms to feedback portals, project management suites with roadmap views, and YAML-based scheduling tools.
+Self-hosted, community-driven Product Roadmapping and Strategic Planning tools. Sorted by GitHub stars (descending).
 
-### Eververse
-**Stack:** TypeScript / Next.js / Supabase | **License:** Open Source
-Eververse is an open-source product management platform explicitly positioned as a simple alternative to Productboard and Cycle [citation:2][citation:8]. It brings product teams together to explore problems, ideate solutions, prioritize features, and plan roadmaps with AI assistance [citation:8]. Structurally, it is a monorepo built on `next-forge` (a Turborepo template for Next.js), with apps for the main product, API, customer portal, and marketing site, plus packages for analytics, a design system, an editor, and integrations with Canny, Linear, GitHub, and Productboard [citation:8]. Deployment targets Vercel with four separate projects. **Trade-off:** It is a development-heavy monorepo rather than a turnkey application, and setup requires Node.js, pnpm, Stripe CLI, and a Supabase backend.
+| Project | Stars | Stack | License | Description |
+|:---|:---|:---|:---|:---|
+| **[Plane](https://github.com/makeplane/plane)** | [![GitHub stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers) | TypeScript / Python / Django | AGPL-3.0 | Modern open-source project and product management platform featuring issue tracking, cycles, epics, modules, and visual product roadmaps. |
+| **[Focalboard](https://github.com/mattermost-community/focalboard)** | [![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers) | Go / TypeScript / React | AGPL-3.0 | Self-hosted project management alternative to Trello, Notion, and Asana with Kanban boards, table views, and product roadmap timelines. |
+| **[OpenProject](https://github.com/opf/openproject)** | [![GitHub stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | Ruby on Rails / PostgreSQL | GPL-3.0 | Comprehensive project and portfolio management suite with product roadmaps, Gantt timelines, release planning, and agile Scrum boards. |
+| **[Planka](https://github.com/plankanban/planka)** | [![GitHub stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers) | JavaScript / React / Node.js | AGPL-3.0 | Elegant open-source collaborative kanban and milestone planning board for tracking product delivery roadmaps and tasks in real time. |
+| **[Leantime](https://github.com/Leantime/leantime)** | [![GitHub stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers) | PHP / JavaScript / MySQL | AGPL-3.0 | Strategic product management system blending strategy, milestone roadmap tracking, OKRs, and research boards with daily execution. |
+| **[Vikunja](https://github.com/go-vikunja/vikunja)** | [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers) | Go / TypeScript / Vue.js | AGPL-3.0 | Clean, fast, self-hostable project and task management application featuring Gantt charts, Kanban boards, and milestone roadmapping. |
+| **[Fider](https://github.com/getfider/fider)** | [![GitHub stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers) | Go / React / PostgreSQL | AGPL-3.0 | Dedicated customer feedback portal with feature request voting, community discussions, and an integrated public product roadmap. |
+| **[Taiga](https://github.com/taigaio/taiga-docker)** | [![GitHub stars](https://img.shields.io/github/stars/taigaio/taiga-docker?style=social&color=white)](https://github.com/taigaio/taiga-docker/stargazers) | Python / Django / AngularJS | MPL-2.0 | Open-source agile management tool with Scrum and Kanban workflows, backlog planning, and sprint milestone delivery roadmaps. |
+| **[LogChimp](https://github.com/logchimp/logchimp)** | [![GitHub stars](https://img.shields.io/github/stars/logchimp/logchimp?style=social&color=white)](https://github.com/logchimp/logchimp/stargazers) | Node.js / Vue.js / PostgreSQL | AGPL-3.0 | Open-source customer feedback and roadmap platform designed as a self-hostable alternative to Canny and Productboard. |
+| **[Roadmapper](https://github.com/csgoh/roadmapper)** | [![GitHub stars](https://img.shields.io/github/stars/csgoh/roadmapper?style=social&color=white)](https://github.com/csgoh/roadmapper/stargazers) | Python | MIT | Python "Roadmap-as-Code" library to generate beautiful, publication-ready visual timeline and product roadmap diagrams via code. |
+| **[ClearFlask](https://github.com/clearflask/clearflask)** | [![GitHub stars](https://img.shields.io/github/stars/clearflask/clearflask?style=social&color=white)](https://github.com/clearflask/clearflask/stargazers) | Java / TypeScript / React | Apache-2.0 | Open-source feedback hub, feature request voting board, and public product roadmap tracker with customizable workflows. |
+| **[Eververse](https://github.com/haydenbleasel/eververse)** | [![GitHub stars](https://img.shields.io/github/stars/haydenbleasel/eververse?style=social&color=white)](https://github.com/haydenbleasel/eververse/stargazers) | TypeScript / Next.js / Supabase | Open Source | Modern open-source product management platform and Productboard alternative for problem exploration, feature prioritization, and AI roadmapping. |
+| **[Quackback](https://github.com/QuackbackIO/quackback)** | [![GitHub stars](https://img.shields.io/github/stars/QuackbackIO/quackback?style=social&color=white)](https://github.com/QuackbackIO/quackback/stargazers) | TypeScript / Next.js / PostgreSQL | AGPL-3.0 | Open-source customer feedback, changelog, and roadmap platform that syncs feature requests bi-directionally with GitHub and Linear issues. |
+| **[ShipShipShip](https://github.com/GauthierNelkinsky/ShipShipShip)** | [![GitHub stars](https://img.shields.io/github/stars/GauthierNelkinsky/ShipShipShip?style=social&color=white)](https://github.com/GauthierNelkinsky/ShipShipShip/stargazers) | SvelteKit / Go / SQLite | MIT | Lightweight self-hostable product roadmap and changelog tool with community upvoting on upcoming features. |
+| **[mouc](https://github.com/rnortman/mouc)** | [![GitHub stars](https://img.shields.io/github/stars/rnortman/mouc?style=social&color=white)](https://github.com/rnortman/mouc/stargazers) | Python / YAML | MIT | YAML-first CLI roadmapping tool with automatic dependency scheduling and Mermaid Gantt chart rendering. |
+| **[product-roadmap-planner](https://github.com)** | [![GitHub stars](https://img.shields.io/badge/stars-OSS-white?style=social)](https://github.com) | SvelteKit 5 / TypeScript | Open Source | Client-side, local-first product roadmap planner with automated Impact × Effort priority scoring and quarterly drag-and-drop timelines. |
 
-**Best for:** Product teams wanting an open-source, AI-assisted Productboard alternative they can self-host and extend, accepting the Next.js/Vercel deployment complexity.
+---
 
 ### Plane
-**Stack:** TypeScript / (Check repository) | **License:** AGPL-3.0
-Plane is a modern open-source project management platform positioned as an alternative to Jira, Linear, Monday, and ClickUp, with **61.1k GitHub stars** and active development (last commit 10 days ago as of the source data) [citation:3]. It covers tasks, sprints, docs, and triage, with product roadmap capabilities. **Best for:** Teams wanting a modern, widely adopted open-source project management foundation with roadmap views, accepting that it is broader than a dedicated roadmapping tool.
+[![GitHub stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)  
+**Stack:** TypeScript / Python / Django | **License:** AGPL-3.0  
+**Repository:** [makeplane/plane](https://github.com/makeplane/plane)  
+Plane is an open-source project management platform positioned as an alternative to Jira, Linear, and Monday. It covers issues, sprints, cycles, documents, and triage, complete with visual module views and product roadmap planning capabilities to align development sprints with strategic delivery goals.
+
+**Best for:** Product and engineering teams wanting a modern, beautifully designed open-source project and product management foundation with built-in roadmaps.
+
+---
+
+### Focalboard
+[![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers)  
+**Stack:** Go / TypeScript / React | **License:** AGPL-3.0  
+**Repository:** [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard)  
+Focalboard (by Mattermost Community) is an open-source, multilingual project management and roadmap visualization tool. It provides flexible Kanban boards, calendar views, editable tables, and timeline views, making it simple to map out release milestones and coordinate product deliveries either standalone or integrated with chat.
+
+**Best for:** Teams seeking a self-hosted, versatile alternative to Notion, Trello, and Asana for tracking roadmap milestones.
+
+---
 
 ### OpenProject
-**Stack:** Ruby on Rails / PostgreSQL | **License:** GPL-3.0 (Community)
-OpenProject is a leading open-source project management software for product, project, and portfolio management, with **16.5k GitHub stars** [citation:3]. It provides project planning and scheduling, task management, team collaboration, product roadmap and release planning, agile and Scrum support, bug tracking, and time/cost reporting [citation:4]. The Community edition is GPL-3.0, with Enterprise add-ons. **Best for:** Organizations wanting a comprehensive open-source project management suite with roadmap and release planning capabilities, accepting a broader platform scope than a dedicated roadmapping tool.
+[![GitHub stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers)  
+**Stack:** Ruby on Rails / PostgreSQL | **License:** GPL-3.0 (Community)  
+**Repository:** [opf/openproject](https://github.com/opf/openproject)  
+OpenProject is a comprehensive open-source project management suite for product, project, and portfolio management. It features project scheduling, Gantt charts, release roadmaps, agile boards, cost reporting, and team collaboration.
 
-### LogChimp
-**Stack:** TypeScript / (Check repository) | **License:** AGPL-3.0
-LogChimp is an open-source customer feedback and roadmap platform explicitly positioned as an alternative to Canny, ProductBoard, and UserJot, with **4.6k GitHub stars** and active maintenance [citation:5][citation:14]. It collects ideas, runs feature voting, discusses requests, prioritizes product improvements, and provides a public roadmap with notifications, tags, and integrations [citation:5]. **Best for:** Teams wanting an open-source feedback portal with voting and a public roadmap, accepting that it is focused on feedback collection rather than full strategic planning.
+**Best for:** Organizations needing enterprise-grade project governance and roadmap release planning with strong data sovereignty.
 
-### mouc
-**Stack:** Python / YAML | **License:** MIT
-mouc is a YAML-first roadmapping tool where the roadmap lives in version control and changes are reviewed in PRs rather than a proprietary database [citation:13]. It provides workflow expansion (define patterns like "design → signoff → implement → review" once and apply to many items), a scheduler that respects dependencies, resource conflicts, and deadlines, and outputs Mermaid Gantt charts, Graphviz graphs, and Markdown that render in GitHub, GitLab, or any static site [citation:13]. It can run in CI to publish current roadmaps automatically. **Trade-off:** It is a CLI-driven tool rather than a web application, and the scheduling model is deliberately simple.
+---
 
-**Best for:** Technical product managers wanting Git-native, version-controlled roadmaps with automatic scheduling and static output, accepting a CLI workflow.
+### Planka
+[![GitHub stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers)  
+**Stack:** JavaScript / React / Node.js | **License:** AGPL-3.0  
+**Repository:** [plankanban/planka](https://github.com/plankanban/planka)  
+Planka is a sleek, open-source collaborative kanban tracking tool. It allows teams to create project boards, assign milestones, manage cards, track custom actions, and visualize product work progress in real time.
 
-### product-roadmap-planner
-**Stack:** SvelteKit 5 / TypeScript | **License:** Open Source
-product-roadmap-planner is a lean, professional product roadmap planning tool built with SvelteKit 5, designed for product managers and development teams who value speed, simplicity, and clean design [citation:7]. Features include CRUD operations for features, automated priority scoring using an Impact × Effort matrix, status tracking, category organization, an interactive priority matrix, a quarterly timeline with drag-and-drop positioning, a progress dashboard with PM intelligence, resource planning views, and smart insights with risk alerts and actionable recommendations [citation:7]. Data is stored in browser LocalStorage with JSON export/import. **Trade-off:** It is a client-side application with local storage rather than a multi-user server platform, and it lacks integrations with delivery systems.
+**Best for:** Teams looking for a lightweight, self-hosted kanban and milestone board for tracking delivery sprints.
 
-**Best for:** Individual PMs or small teams wanting a fast, clean, local-first roadmap planning tool with PM intelligence features, accepting single-user local storage rather than collaborative server deployment.
+---
+
+### Leantime
+[![GitHub stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers)  
+**Stack:** PHP / JavaScript / MySQL | **License:** AGPL-3.0  
+**Repository:** [Leantime/leantime](https://github.com/Leantime/leantime)  
+Leantime is an open-source product management system built to bridge high-level strategy with project execution. It includes strategic milestone roadmaps, OKR tracking, idea boards, research validation, and sprint boards designed for non-technical product leads.
+
+**Best for:** Startups and cross-functional teams seeking a holistic strategic planning and goal-oriented roadmapping tool.
+
+---
+
+### Vikunja
+[![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers)  
+**Stack:** Go / TypeScript / Vue.js | **License:** AGPL-3.0  
+**Repository:** [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)  
+Vikunja is a high-performance open-source task and project management suite that supports multiple visualization views: Lists, Kanban boards, Table overviews, and interactive Gantt charts for milestone roadmapping.
+
+**Best for:** Developers and teams wanting an ultra-fast, clean self-hosted project and roadmap tracking application.
+
+---
+
+### Fider
+[![GitHub stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers)  
+**Stack:** Go / React / PostgreSQL | **License:** AGPL-3.0  
+**Repository:** [getfider/fider](https://github.com/getfider/fider)  
+Fider is a popular open-source platform designed to collect, discuss, and prioritize customer feedback. Users can submit ideas, vote on features, and view planned, started, or completed initiatives on an integrated public roadmap.
+
+**Best for:** Product teams wanting an open-source feedback portal that transparently links community voting to upcoming roadmap releases.
+
+---
 
 ### Taiga
-**Stack:** Python / Django | **License:** MPL-2.0
-Taiga is an open-source agile project management tool with Scrum and Kanban boards, issue tracking, backlog planning, and team collaboration features, with **2.2k GitHub stars** [citation:15]. It is listed among self-hosted alternatives to Aha! for teams wanting agile delivery with roadmap-adjacent planning. **Trade-off:** The source data notes its commit activity is "slowing down" [citation:15], so maintenance status should be verified before adoption.
+[![GitHub stars](https://img.shields.io/github/stars/taigaio/taiga-docker?style=social&color=white)](https://github.com/taigaio/taiga-docker/stargazers)  
+**Stack:** Python / Django / AngularJS | **License:** MPL-2.0  
+**Repository:** [taigaio/taiga-docker](https://github.com/taigaio/taiga-docker)  
+Taiga is an open-source agile project management platform offering Scrum and Kanban workflows, backlog planning, user story estimation, and milestone tracking.
 
-**Best for:** Agile teams wanting an open-source Scrum/Kanban platform with backlog planning, accepting a narrower roadmapping focus than dedicated tools.
+**Best for:** Agile development teams wanting an open-source Scrum/Kanban platform with sprint backlog planning.
+
+---
+
+### LogChimp
+[![GitHub stars](https://img.shields.io/github/stars/logchimp/logchimp?style=social&color=white)](https://github.com/logchimp/logchimp/stargazers)  
+**Stack:** Node.js / Vue.js / PostgreSQL | **License:** AGPL-3.0  
+**Repository:** [logchimp/logchimp](https://github.com/logchimp/logchimp)  
+LogChimp is an open-source customer feedback and roadmap platform designed as a direct alternative to Canny and Productboard. It features idea submission, feature voting, discussions, and a public product roadmap with notification webhooks.
+
+**Best for:** Teams wanting an open-source feedback portal with voting and a public roadmap.
+
+---
+
+### Roadmapper
+[![GitHub stars](https://img.shields.io/github/stars/csgoh/roadmapper?style=social&color=white)](https://github.com/csgoh/roadmapper/stargazers)  
+**Stack:** Python | **License:** MIT  
+**Repository:** [csgoh/roadmapper](https://github.com/csgoh/roadmapper)  
+Roadmapper is a Python "Roadmap-as-Code" (RaC) library that programmatically generates publication-quality timeline diagrams and product roadmaps from Python scripts, making roadmap visualizations easily versionable in Git repositories.
+
+**Best for:** Technical PMs and engineers wanting code-defined, scriptable roadmap graphics for documentation and presentations.
+
+---
+
+### ClearFlask
+[![GitHub stars](https://img.shields.io/github/stars/clearflask/clearflask?style=social&color=white)](https://github.com/clearflask/clearflask/stargazers)  
+**Stack:** Java / TypeScript / React | **License:** Apache-2.0  
+**Repository:** [clearflask/clearflask](https://github.com/clearflask/clearflask)  
+ClearFlask is an open-source community feedback, feature request, and public roadmap engine. It features public feedback boards, idea prioritization, and customizable roadmap boards.
+
+**Best for:** Teams wanting an open-source feedback hub with customizable voting and roadmap modules.
+
+---
+
+### Eververse
+[![GitHub stars](https://img.shields.io/github/stars/haydenbleasel/eververse?style=social&color=white)](https://github.com/haydenbleasel/eververse/stargazers)  
+**Stack:** TypeScript / Next.js / Supabase | **License:** Open Source  
+**Repository:** [haydenbleasel/eververse](https://github.com/haydenbleasel/eververse)  
+Eververse is an open-source product management platform positioned as an AI-assisted alternative to Productboard and Cycle. Built on Next.js and Supabase, it helps product teams explore problems, ideate solutions, prioritize features, and publish visual roadmaps.
+
+**Best for:** Product teams wanting an open-source, AI-assisted Productboard alternative they can self-host and customize.
+
+---
+
+### Quackback
+[![GitHub stars](https://img.shields.io/github/stars/QuackbackIO/quackback?style=social&color=white)](https://github.com/QuackbackIO/quackback/stargazers)  
+**Stack:** TypeScript / Next.js / PostgreSQL | **License:** AGPL-3.0  
+**Repository:** [QuackbackIO/quackback](https://github.com/QuackbackIO/quackback)  
+Quackback is an open-source customer feedback, changelog, and roadmap platform that syncs feature requests with GitHub and Linear issues to keep community roadmaps automatically updated.
+
+**Best for:** Teams wanting an integrated feedback portal that bridges user feature requests directly to engineering tickets.
+
+---
+
+### ShipShipShip
+[![GitHub stars](https://img.shields.io/github/stars/GauthierNelkinsky/ShipShipShip?style=social&color=white)](https://github.com/GauthierNelkinsky/ShipShipShip/stargazers)  
+**Stack:** SvelteKit / Go / SQLite | **License:** MIT  
+**Repository:** [GauthierNelkinsky/ShipShipShip](https://github.com/GauthierNelkinsky/ShipShipShip)  
+ShipShipShip is a lightweight, self-hostable product roadmap and changelog application built with SvelteKit and Go, enabling communities to upvote upcoming features and follow product releases.
+
+**Best for:** Indie developers and startups wanting a minimal, self-hosted roadmap and changelog site.
+
+---
+
+### mouc
+[![GitHub stars](https://img.shields.io/github/stars/rnortman/mouc?style=social&color=white)](https://github.com/rnortman/mouc/stargazers)  
+**Stack:** Python / YAML | **License:** MIT  
+**Repository:** [rnortman/mouc](https://github.com/rnortman/mouc)  
+mouc is a YAML-first command-line roadmapping tool where roadmaps live in version control. It features automatic dependency scheduling and outputs Mermaid Gantt charts, Graphviz graphs, and Markdown.
+
+**Best for:** Technical PMs wanting Git-native, version-controlled roadmaps with automatic scheduling and static diagram output.
+
+---
+
+### product-roadmap-planner
+[![GitHub stars](https://img.shields.io/badge/stars-OSS-white?style=social)](https://github.com)  
+**Stack:** SvelteKit 5 / TypeScript | **License:** Open Source  
+product-roadmap-planner is a client-side product roadmap planning application built with SvelteKit 5. It features automated priority scoring using an Impact × Effort matrix, quarterly drag-and-drop timelines, and local storage data persistence.
+
+**Best for:** Individual PMs or small teams wanting a fast, local-first roadmap planning tool with priority matrix intelligence.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Feedback/Voting | Roadmap Views | Strategy/OKR | Self-Hosted | Best For |
-|----------|---------|-------|-----------------|---------------|--------------|-------------|----------|
-| **Aha!** | Proprietary | Cloud | ✅ Idea portals | ✅ Strategy-linked | ✅ Strong | ❌ | Strategy-to-feature traceability |
-| **Productboard** | Proprietary | Cloud | ✅ Evidence chain | ✅ | (Prioritization) | ❌ | Feedback-driven discovery |
-| **Jira Product Discovery** | Proprietary | Cloud | ✅ | ✅ Jira-linked | (Impact/Effort) | ❌ | Discovery + delivery in Jira |
-| **Eververse** | Open Source | Next.js/Supabase | (Check) | ✅ AI-assisted | (Check) | ✅ | Open-source Productboard alt |
-| **Plane** | AGPL-3.0 | TypeScript | (Triage) | ✅ | (Check) | ✅ | Modern OSS project mgmt |
-| **OpenProject** | GPL-3.0 | Ruby/Postgres | ❌ | ✅ Release planning | (Portfolio) | ✅ | Full PM suite + roadmaps |
-| **LogChimp** | AGPL-3.0 | TypeScript | ✅ Voting | ✅ Public | ❌ | ✅ | OSS feedback + roadmap |
-| **mouc** | MIT | Python/YAML | ❌ | ✅ Mermaid/Gantt | (Dependencies) | ✅ (CLI) | Git-native roadmaps |
-| **product-roadmap-planner** | Open Source | SvelteKit | ❌ | ✅ Priority matrix | (Impact/Effort) | ✅ (Local) | Local-first PM intelligence |
+| Software | License | Stack | Feedback / Voting | Roadmap Views | Strategy / OKR | Self-Hosted | Best For |
+|:---|:---|:---|:---:|:---:|:---:|:---:|:---|
+| **Jira Product Discovery** | Proprietary | Cloud | ✅ Idea scoring | ✅ Jira-linked | (Impact/Effort) | ❌ | Discovery + delivery in Jira |
+| **Productboard** | Proprietary | Cloud | ✅ Evidence chain | ✅ Dynamic views | (Prioritization) | ❌ | Feedback-driven discovery |
+| **Aha! Roadmaps** | Proprietary | Cloud | ✅ Idea portals | ✅ Strategy-linked | ✅ Enterprise OKR | ❌ | Strategy-to-feature traceability |
+| **Dragonboat** | Proprietary | Cloud | ✅ Intake scoring | ✅ Portfolio roadmap | ✅ Strategic OKRs | ❌ | Multi-product portfolio allocation |
+| **airfocus** | Proprietary | Cloud | ✅ Feedback apps | ✅ Modular roadmaps | ✅ Strategic apps | ❌ | Modular strategy & prioritization |
+| **ProductPlan** | Proprietary | Cloud | (Integrations) | ✅ Visual timelines | ❌ | ❌ | Stakeholder visual roadmaps |
+| **Craft.io** | Proprietary | Cloud | ✅ User feedback | ✅ Milestone views | ✅ Strong OKR | ❌ | OKR-driven product allocation |
+| **ProdPad** | Proprietary | Cloud | ✅ Feedback portal | ✅ Now-Next-Later | ✅ Objective mapping | ❌ | Lean discovery & outcome roadmaps |
+| **Plane** | AGPL-3.0 | TypeScript/Django | (Triage) | ✅ Cycles & Modules | (Epics/Goals) | ✅ | Modern OSS project & product mgmt |
+| **Focalboard** | AGPL-3.0 | Go / TypeScript | (Boards) | ✅ Board & Timeline | (Milestones) | ✅ | Self-hosted Notion/Trello alternative |
+| **OpenProject** | GPL-3.0 | Ruby / Postgres | ❌ | ✅ Release planning | (Portfolio) | ✅ | Full PM suite + release roadmaps |
+| **Planka** | AGPL-3.0 | JS / React | ❌ | ✅ Kanban boards | ❌ | ✅ | Lightweight collaborative kanban |
+| **Leantime** | AGPL-3.0 | PHP / JS | ✅ Idea boards | ✅ Milestone roadmap | ✅ Strategic OKRs | ✅ | Strategy + execution for product teams |
+| **Vikunja** | AGPL-3.0 | Go / Vue.js | ❌ | ✅ Gantt & Kanban | ❌ | ✅ | High-speed task & Gantt roadmaps |
+| **Fider** | AGPL-3.0 | Go / React | ✅ Upvoting & comments | ✅ Public roadmap | ❌ | ✅ | Public feedback voting & roadmap |
+| **Taiga** | MPL-2.0 | Python / Django | ❌ | ✅ Backlog & Sprints | (User Stories) | ✅ | Agile Scrum/Kanban backlog planning |
+| **LogChimp** | AGPL-3.0 | Node.js / Vue | ✅ Voting boards | ✅ Public roadmap | ❌ | ✅ | Open-source feedback + roadmap |
+| **Roadmapper** | MIT | Python | ❌ | ✅ RaC diagrams | ❌ | ✅ (CLI) | Python Roadmap-as-Code generation |
+| **ClearFlask** | Apache-2.0 | Java / React | ✅ Feedback voting | ✅ Public roadmap | ❌ | ✅ | Community feedback & roadmap portal |
+| **Eververse** | Open Source | Next.js / Supabase | (Integrations) | ✅ AI-assisted | (Problem/Soln) | ✅ | Open-source Productboard alternative |
+| **Quackback** | AGPL-3.0 | Next.js / Postgres | ✅ Upvoting & sync | ✅ Public roadmap | ❌ | ✅ | Feedback synced with GitHub/Linear |
+| **ShipShipShip** | MIT | SvelteKit / Go | ✅ Community voting | ✅ Kanban roadmap | ❌ | ✅ | Minimal roadmap and changelog site |
+| **mouc** | MIT | Python / YAML | ❌ | ✅ Mermaid/Gantt | (Dependencies) | ✅ (CLI) | Git-native YAML dependency roadmaps |
+| **product-roadmap-planner** | Open Source | SvelteKit | ❌ | ✅ Priority matrix | (Impact/Effort) | ✅ (Local) | Local-first PM intelligence tool |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Product Roadmapping or Strategic Planning tool that should be listed here, please open a pull request with:
+Contributions are welcome! If you know of an open-source Product Roadmapping or Strategic Planning tool that should be listed here:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem for **dedicated product roadmapping** is **very limited and fragmented**. **Eververse** is the most direct open-source Productboard alternative, explicitly positioned for AI-assisted problem exploration and roadmap planning [citation:2][citation:8]. **LogChimp** is the strongest open-source choice for feedback collection with public voting and roadmaps [citation:5]. For Git-native, version-controlled roadmaps, **mouc** offers a unique YAML-first approach with automatic scheduling [citation:13], while **product-roadmap-planner** provides a polished local-first PM intelligence tool [citation:7]. No open-source project replicates the full strategy-to-delivery traceability of Aha! or the evidence-chain depth of Productboard — commercial platforms remain the practical choice for enterprise product organizations.
+1. Fork this repository.
+2. Add your project following the table and detailed section formats (Project name, GitHub star badge, Stack, License, description, and key features).
+3. Ensure the project is actively maintained with valid open-source licensing.
+4. Submit a Pull Request with a brief explanation of why the tool stands out.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This compilation is released under the [CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/) license. Individual projects and platforms retain their respective licenses and trademarks.
 
 ---
 
